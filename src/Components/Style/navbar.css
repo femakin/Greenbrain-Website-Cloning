@@ -1,0 +1,30 @@
+#nav-bar {
+   
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2000;
+    background: #fff;
+}
+
+.nav-container {
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    height: calc(10vh - 3px);
+    padding: 2.0rem;
+}
+
+.navbar {
+    position: relative;
+    /* padding: .5rem 1rem; */
+}
+
+
+
+@media only screen and (max-width: 620px){
+constructed stylesheet
+.nav-container {
+    height: auto;
+    padding: 5rem;
+}
+}
